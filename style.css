@@ -296,7 +296,7 @@ footer {
   padding-bottom: 2rem;
 }
 .contact h1 {
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 1rem 0;
   letter-spacing: 0.25rem;
   font-family: 'Abril Fatface', cursive;
 }
@@ -322,7 +322,7 @@ footer {
   padding: 1rem 1rem 1rem 0;
   transform: rotate(270deg);
   transform-origin: 0 0;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   line-height: 1rem;
   font-family: 'Varela Round', sans-serif;
 }
@@ -339,311 +339,11 @@ footer {
 .follow h4 i {
   margin-right: 0.5rem;
 }
-@media screen and (max-width: 1300px) {
-  .inner-container {
-    width: 60%;
-    padding: 20px;
-  }
-  .description {
-    font-size: 2.3rem;
-  }
-  .main {
-    width: 300px;
-  }
-  .left, .right {
-    width: 130px;
-  }
+.footer-reveal {
+  opacity: 0;
 }
-@media screen and (max-width: 1100px) {
-  .inner-container {
-    width: 60%;
-    padding: 0;
-    font-size: 0.75rem;
-  }
-  .about {
-    background-size: 25rem;
-  }
-  .description {
-    font-size: 2.1rem;
-  }
-  .main {
-    width: 280px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .inner-container {
-    padding: 10px;
-  }
-  p {
-    font-size: 0.8rem;
-  }
-  .filter-menu li {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-  .title {
-    font-size: 1.5rem;
-    padding-bottom: 20px;
-  }
-  .quotes {
-    font-size: 2.3rem;
-  }
-  .description {
-    font-size: 2rem;
-    padding-top: 100px;
-  }
-  .main {
-    width: 280px;
-  }
-  .work {
-    height: 800px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-  }
-  .quotes {
-    padding-top: 30px;
-    font-size: 2rem;
-  }
-  .bg1 {
-    font-size: 1rem;
-  }
-  .image {
-    width: 280px;
-    height: 280px;  
-  }
-  .description {
-    padding-right: 50px;
-  }
-  .contact h1 {
-    font-size: 1.7rem;
-  }
-  .follow {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width: 800px) {
-  .inner-container {
-    width: 55%;
-    padding: 0;
-    height: 50%;
-    transform: translateY(-30px);
-  }
-  .bg {
-    height: 400px;
-  }
-  .image {
-    width: 250px;
-    height: 250px;
-  }
-  .p {
-    font-size: 0.65rem;
-  }
-  .quotes {
-    font-size: 1.8rem;
-  }
-  .description {
-   font-size: 1.5rem;
-  }
-  .gallery {
-    padding-right: 50px;
-  }
-  #link {
-    height: 250px;
-    width: 250px;
-    transform: translateY(150%);
-  }
-}
-@media screen and (max-width: 750px) {
-  .inner-container {
-    width: 60%;
-    padding: 0;
-  }
-  .image {
-    width: 200px;
-    height: 200px;
-  }
-  p {
-    font-size: 0.75rem;
-    line-height: unset;
-  }
-  .great {
-    background-position: center;
-    height: 30vh;
-  }
-  .filter-menu li {
-    font-size: 0.8rem;
-    line-height: 1.8rem;
-  }
-  .title {
-    font-size: 1rem;
-  }
-  .header ul li a {
-    font-size: 1rem;
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    padding: 8px 0 5px 0;
-  }
-  .gallery {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-  }
-  .description {
-    text-align: center;
-   width: 90%;
-    padding: 3rem 0;
-  }
-  .carousel {
-    width: 100%;
-    height: 50%;
-    transform: translateY(-90%);
-  }
-  .main{
-    transform: translateY(20%);
-  }
-  .left, .right{ 
-    height: 200px;
-    transform: translateY(150%);
-  }
-}
-@media screen and (max-width: 650px) {
-  .inner-container {
-    width: 100%;
-    padding: 0 20px 0 20px;
-  }
-  p {
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-    text-align: center;
-  }
-  .bg {
-    height: 300px;
-  }
-  .quotes {
-    font-size: 1.5rem;
-    padding-top: 40px;
-  }
-  .contact h1 {
-    padding: 1rem 0.5rem;
-    font-size: 1.5rem;
-  }
-  .contact h5 {
-    padding-top: 2rem;
-    font-size: 0.7rem;
-  }
-  .contact h4 {
-    font-size: 0.7rem;
-    padding: 0.5rem;
-  }
-  .follow {
-    transform: rotate(0);
-    transform-origin: 0 0;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0;
-  }
-
-}
-@media screen and (max-width: 600px) {
-  .inner-container {
-    width: 100%;
-  }
-  .bg {
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-  }
-  p {
-    font-size: 0.75rem;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 550px) {
-  .inner-container {
-    width: 100%;
-  }
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  p {
-    font-size: 12px;
-    line-height: 1rem;
-    height: auto;
-    text-align: center;
-    transform: translateY(-10%);
-  }
-  .image {
-    transform: translateY(-40%);
-    height: 130px;
-    width: 130px;
-  }
-  .description {
-    font-size: 0.9rem;
-    font-weight: bolder;
-  }
-  #link {
-    height: 200px;
-    width: 200px;
-    transform: translateY(250%);
-  }
-  .left, .right {
-    height: 200px;
-  }
-}
-.gallery {
-  padding-left: 10px ;
-  padding-right: 10px;
-}
-@media screen and (max-width: 400px) {
-  .inner-container {
-    width: 100%;
-  }
-  p {
-    line-height: 1rem;
-    text-align: center;
-  }
-  .title {
-    font-size: 1rem;
-  }
-  .header ul li a {
-    font-size: 0.7rem;
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 0 5px 0;
-  }
-  #link {
-    transform: translateY(150%);
-}
-  .contact h1 {
-    padding: 1rem 0.5rem;
-    font-size: 1rem;
-  }
-  .contact h5 {
-    padding-top: 2rem;
-    font-size: 1rem;
-  }
-  .contact h4 {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-  .follow {
-    transform: rotate(0);
-    transform-origin: 0 0;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0;
-  }
+.footer-reveal-onscroll {
+  opacity: 1;
 }
 @media screen and (max-width: 1300px) {
   .inner-container {
@@ -809,7 +509,7 @@ footer {
   .carousel {
     width: 100%;
     height: 50%;
-    transform: translateY(-90%);
+    transform: translateY(-70%);
   }
   .main{
     transform: translateY(20%);
@@ -837,7 +537,7 @@ footer {
     padding-top: 40px;
   }
   .contact h1 {
-    padding: 1rem 0.5rem;
+    padding-top: 2rem;
     font-size: 1.5rem;
   }
   .contact h5 {
@@ -932,11 +632,11 @@ footer {
     transform: translateY(150%);
 }
   .contact h1 {
-    padding: 1rem 0.5rem;
+    padding-top: 2rem;
     font-size: 1rem;
   }
   .contact h5 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 1rem;
   }
   .contact h4 {

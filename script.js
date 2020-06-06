@@ -43,6 +43,16 @@ function slideSides() {
   }
 }
 window.addEventListener("scroll", slideSides);
+function footerReveal() {
+  let element = document.querySelector(".work");
+  let elementTwo = document.querySelector(".footer-reveal");
+  let elPosition = element.getBoundingClientRect().top;
+  let screenPos = window.innerHeight / 1.3;
+  if (elPosition < screenPos) {
+    elementTwo.classList.add("footer-reveal-onscroll");
+  }
+}
+window.addEventListener("scroll", footerReveal);
 function showQuote() {
   let quote = Math.floor(Math.random() * 5 + 1);
   let quoteDiv = document.querySelector(".quotes");
